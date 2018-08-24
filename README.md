@@ -17,7 +17,7 @@ $ rustc -O prime-xor.rs
 It accept the width of the image (in px) as the first argument.
 
 ```
-$ ./prime-xor 600
+$ ./prime-xor 600 > prime.pbm
 ```
 
 It will generate a 600x600 pixels of the image above. The format is in .pbm, but
